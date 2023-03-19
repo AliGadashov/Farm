@@ -1,0 +1,36 @@
+.click {
+  background-color: unset;
+}
+
+.click :hover {
+  background-color: rgb(12, 51, 15);
+}
+
+.click,
+.links {
+  padding: 12px;
+  font-size: 1.2em;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  transition: 0.4s;
+  color: white;
+}
+.list {
+  position: absolute;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: 0.3s;
+}
+
+.newlist {
+  transform: scaleY(1);
+}
+.links {
+  background-color: #283c63;
+}
+.links:hover {
+  background-color: #01579b;
+  transform: scale(1.1);
+}
